@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS</title>
+    <style>
+        h1 {color:#ffffff;}
+        h2 {background-color:#f27641;}
+        /* v from now on you will use hexadecimal colors (load faster) */
+        a:visited {color: #00ff00;} /* changes visited link color */
+        a:hover {background-color:#edc1a1;} /* changes color behind link when hovering */
+        /* ^ pseudo selector, need the : */
+        body {background-color:#ffc0cb;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url("otto.png");
+            /* background images repeat */
+            background-size: 100%;
+            /* sizing background image */
+        }
+        .bgimage {background-image: url("otto.png");
+    background-size: 20%;}
+        .box {background-color: #ffffff;
+        border: 5px solid yellow; /* border around box (combo property) */
+        padding: 30px; /* inside of box */
+        margin: 30px; /*outside of box */
+        }
+                
+    </style>
+</head>
+<body>
+    <h1>More CSS</h1>
+        <h2>Hexadecimal Colors</h2>
+        <h2>Pseudo Selectors</h2>
+            <a href="http://www.microsoft.com">Microsoft</a><br>
+            <a href="http://www.apple.com">Apple</a>
+        <h2>Background Images</h2>
+            <p class="bgimage">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis nesciunt excepturi sequi aspernatur sapiente et, quos suscipit distinctio voluptatum accusantium voluptates. Consectetur beatae enim voluptatibus repellat atque vero inventore!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis nesciunt excepturi sequi aspernatur sapiente et, quos suscipit distinctio voluptatum accusantium voluptates. Consectetur beatae enim voluptatibus repellat atque vero inventore!</p>
+            <h2>Box Model</h2>
+            <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusamus vero suscipit consectetur doloremque officiis exercitationem ducimus delectus labore ipsam architecto cum illum ea tempore laborum corrupti, numquam deserunt commodi.</p>
+            
+</body>
+</html>
