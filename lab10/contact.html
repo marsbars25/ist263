@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .section1, .section2 {display: flex; padding:20px;}
+            nav {background-color: #FFFFFF; padding: 20px; border-radius: 1em; margin:20px;}
+            .section1 {background-color: #9F70FD; border-radius: 1em; margin:20px;}
+            .section2 {background-color: #9F70FD; border-radius:1em; margin:20px;}
+            h1 {margin:20px;}
+            .address, .form {padding-right:80px;}
+            .section2 {flex-wrap:wrap;}
+        </style>
+    </head>
+        <body>
+            <nav>
+                <a href="index.html">Home</a> <span>&vert;</span>
+                <a href="skills.html">Skills</a> <span>&vert;</span>
+                <a href="contact.html">Contact</a> 
+            </nav>
+            <h1>Contact</h1>
+            <div class="section1">
+                <div class="address">
+                    303 Stadium Place <br>
+                    Syracsue NY, 13210 <br>
+                        <br>
+                </div>
+                <div> 
+                    <a href="mailto:mfruelas@syr.edu">Maria Ruelas Email</a><br>
+                    <a href="https://www.linkedin.com/in/maria-ruelas/" target="_blank">My LinkedIn Page<br><img src="../images/logo-sized.png" alt="Blue LinkedIn Logo"></a> <br>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="form"> 
+                    <form action="https://formspree.io/f/xrgnpdjd" method="post">
+                        <label for="fullname">Full Name</label><br>
+                        <input type="text" id="fullname" name="fullname"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email"><br>
+                    <p>Choose Position:</p>
+                        <input type="radio" id="designer" name="position" value="designer"> 
+                        <label for="designer">Designer</label><br>
+                        <input type="radio" id="videographer" name="position" value="videographer">
+                        <label for="videographer">Videographer</label><br>
+                        <input type="radio" id="photographer" name="position" value="photographer">
+                        <label for="photographer">Photographer</label><br><br>
+                        <label for="resumeportfolio">Link to Resume & Portfolio</label><br>
+                        <textarea id="resumeportfolio" name="resumeportfolio" rows="3" cols="30"></textarea><br><br>
+                        <input type="submit" value="Send Form">
+                    </form><br>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.3195173154477!2d-76.14133036096312!3d43.03470837125837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39b93dcc00f%3A0x7c00efd09213ac94!2sLawrinson%20Hall%2C%20303%20Stadium%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706805936439!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe><br>
+            </div>
+               
+        </body>
+</html>
