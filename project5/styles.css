@@ -65,3 +65,13 @@ footer {
     flex:2;
     padding:10px;
 }
+
+   
+@media only screen and (max-width:800px){
+    .nav, .navleft a, .navright a {
+        display: block;
+        padding: 8px;
+        margin: 1px;
+    }
+    .nav {margin-bottom:40px;}
+}
