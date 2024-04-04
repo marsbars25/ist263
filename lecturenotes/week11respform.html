@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <style>
+        body {
+            background-color:#6494ed;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form {
+            background-color: #FFFFFF;
+            width: 70%;
+            margin: 0 auto; /* centering */
+            padding: 40px;
+        }
+        input, textarea {
+            margin-bottom:15px;
+            width:100%; /* responsive, sizes relative to viewport */
+        }
+        .submit {
+            background-color: #ffc0cb;
+            border: none;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Comments</h1>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments"></textarea><br>
+        <input type="submit" class="submit" value="Send Form"><br>
+    </form>
+</body>
+</html>
