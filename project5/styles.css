@@ -61,6 +61,9 @@ footer {
 .sitelinks {
     flex:4;
 }
+.sitelinks a {
+    line-height:25px;
+}
 .socials {
     flex:2;
     padding:10px;
@@ -70,8 +73,8 @@ footer {
 @media only screen and (max-width:800px){
     .nav, .navleft a, .navright a {
         display: block;
-        padding: 8px;
-        margin: 1px;
+        padding: 12px;
+        line-height:10px;
     }
     .nav {margin-bottom:40px;}
 }
