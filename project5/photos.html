@@ -1,35 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carousel.css">
+  
+    
 </head>
-<body>
-    <nav>
-        <a href="home.html">Maria Ruelas</a>
-        <a href="graphics.html">Graphic Design</a> 
-        <a href="photos.html">Photography</a> 
-        <a href="contact.html">Contact</a> 
-    </nav>
-    <h1>
-        Black and White Portraits
-    </h1>
-    <p>
-        Whenever I am making a portrait I ask myself, what am I trying to communicate with this image? And how would I want to be photographed? It is important to immerse yourself in the environment of the people you are photographing to understand who they are and what they stand for. This way, you can communicate their personality and essence through the images you make. 
-    </p>
-        <img src="img_photos/photos_39.jpg" alt="man with a backpack facing away">
-        <img src="img_photos/photos_01.jpg" alt=" man looking up at light">
-        <img src="img_photos/photos_03.jpg" alt="girl doing her hair">
-        <img src="img_photos/photos_04.jpg" alt="girl putting on mascara">
-        <img src="img_photos/photos_37.jpg" alt="full body portrait of woman with long skirt">
-        <img src="img_photos/photos_38.jpg" alt="man in a harvard sweatshirt with headphones on">
-        <img src="img_photos/photos_40.jpg" alt="girl with a violin case on her back">
 
-    <h1>Music Collection</h1>
-    <p>
-        One of my biggest interests and hobbies is music. Whether I’m playing my guitar, listening to it on my headphones, or photographing it live. Music fuels my everyday life and accompanies me everywhere I go.  As I enter deeper into the world of photography, it has been an honor to take pictures of bands and music venues. There is nothing like capturing the moments of a great performance. 
-    </p>
+<body>
+    <nav class="nav">
+        <div class="navleft">
+            <a href="home.html">Maria Ruelas</a>
+        </div>
+        <div class="navright">
+            <a href="graphics.html">Graphic Design</a>
+            <a href="photos.html">Photography</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>
+            Black and White Portraits
+        </h1>
+        <p>
+            Whenever I am making a portrait I ask myself, what am I trying to communicate with this image? And how would
+            I
+            want to be photographed? It is important to immerse yourself in the environment of the people you are
+            photographing to understand who they are and what they stand for. This way, you can communicate their
+            personality and essence through the images you make.
+        </p>
+
+        <div class="slideshow">
+            <div class="mySlides fade">
+                <img src="img_photos/photos_39.jpg" style="width:100%" alt="man with a backpack facing away">
+            </div>
+            <div class="mySlides fade">
+                <img src="img_photos/photos_01.jpg" style="width:100%" alt=" man looking up at light">
+            </div>
+            <div class="mySlides fade">
+                <img src="img_photos/photos_03.jpg" style="width:100%" alt="girl doing her hair">
+            </div>
+            <div class="mySlides fade">
+                <img src="img_photos/photos_04.jpg" style="width:100%" alt="girl putting on mascara">
+            </div>
+            <div class="mySlides fade">
+                <img src="img_photos/photos_38.jpg" style="width:100%"
+                    alt="man in a harvard sweatshirt with headphones on">
+            </div>
+            <div class="mySlides fade">
+                <img src="img_photos/photos_40.jpg" style="width:100%" alt="girl with a violin case on her back">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+
+        <h1>Music Collection</h1>
+        <p>
+            One of my biggest interests and hobbies is music. Whether I’m playing my guitar, listening to it on my
+            headphones, or photographing it live. Music fuels my everyday life and accompanies me everywhere I go. As I
+            enter deeper into the world of photography, it has been an honor to take pictures of bands and music venues.
+            There is nothing like capturing the moments of a great performance.
+        </p>
         <img src="img_photos/photos_09.jpg" alt="man playing piano with focus on his hands">
         <img src="img_photos/photos_10.jpg" alt="hands playing piano">
         <img src="img_photos/photos_11.jpg" alt="guitarist smoking a cigarrette">
@@ -44,36 +89,56 @@
         <img src="img_photos/photos_21.jpg" alt="woman in a crowd in a basement music venue">
         <img src="img_photos/photos_22.jpg" alt="woman in crowd smoking cigarette">
 
-    <h1>Jazz Band Collection</h1>
-    <p>
-        Being a photographer exposes you to so many diffeent types of people on a day to day basis. Asking to take pictures of someone can initiate a friendship and lead to more work oportunities. In order to take the pictures in my music collection, I asked my friend if I could photograph his band. The band really enjoyed my work and later asked me if I could take professional pictures for their jazz band group. This helped me form new connections and has led me to work with many other musicians. Taking pictures is a great conversation starter and an awesome way to meet people. 
-    </p>
+        <h1>Jazz Band Collection</h1>
+        <p>
+            Being a photographer exposes you to so many diffeent types of people on a day to day basis. Asking to take
+            pictures of someone can initiate a friendship and lead to more work oportunities. In order to take the
+            pictures
+            in my music collection, I asked my friend if I could photograph his band. The band really enjoyed my work
+            and
+            later asked me if I could take professional pictures for their jazz band group. This helped me form new
+            connections and has led me to work with many other musicians. Taking pictures is a great conversation
+            starter
+            and an awesome way to meet people.
+        </p>
         <img src="img_photos/photos_43.jpg" alt="jazz band group sitting on couch">
         <img src="img_photos/photos_45.jpg" alt="jazz band lines up against wall">
-        <img src="img_photos/photos_46.jpg" alt="jazz band lined up behind each other holding the shoulder of the person in front">
+        <img src="img_photos/photos_46.jpg"
+            alt="jazz band lined up behind each other holding the shoulder of the person in front">
         <img src="img_photos/photos_47.jpg" alt="jazz band in front of authorized personel only doors">
         <img src="img_photos/photos_48.jpg" alt="jazz band on stairs steps one by one against wall">
         <img src="img_photos/photos_49.jpg" alt="jazz band sitting on stairs">
 
-    <h1>Day Dream Collection</h1>
-    <p>
-        Dreams have always been facinating to me. For this collection of photographs I wanted to achieve a surreal, angelic, and dreamy effect by playing around with in-camera filters. In order to achieve this look I took a crafty approach and made my own camera filter. This process taught me that you can get really interesting camera effects without spending a single penny.
-    </p>
+        <h1>Day Dream Collection</h1>
+        <p>
+            Dreams have always been facinating to me. For this collection of photographs I wanted to achieve a surreal,
+            angelic, and dreamy effect by playing around with in-camera filters. In order to achieve this look I took a
+            crafty approach and made my own camera filter. This process taught me that you can get really interesting
+            camera
+            effects without spending a single penny.
+        </p>
         <img src="img_photos/photos_59.jpg" alt="torso of girl wearing pink shirt">
         <img src="img_photos/photos_60.jpg" alt="girl in pink underwear and boots belly down with elbows up">
         <img src="img_photos/photos_61.jpg" alt="girl on pink pillow with closed eyes resting on elbows">
-        <img src="img_photos/photos_62.jpg" alt="girl laying on pillow with one eye looking at the camera and the other eye covered with her extended arm">
+        <img src="img_photos/photos_62.jpg"
+            alt="girl laying on pillow with one eye looking at the camera and the other eye covered with her extended arm">
         <img src="img_photos/photos_63.jpg" alt="girl wearing pink underwear laying belly down">
         <img src="img_photos/photos_64.jpg" alt="girl wearing pink underwear laying belly up">
         <img src="img_photos/photos_65.jpg" alt="pink boots">
-        <img src="img_photos/photos_66.jpg" alt="face of girl in the sun with head resting on pillow and hand on forehead">
+        <img src="img_photos/photos_66.jpg"
+            alt="face of girl in the sun with head resting on pillow and hand on forehead">
         <img src="img_photos/photos_67.jpg" alt="girl grabbing her hair from behind">
         <img src="img_photos/photos_68.jpg" alt="girl in pink underwear kneeling with hand on forehead">
 
-    <h1>Life Collection</h1>
-    <p>
-        I love waiting to capture just the right moment. It is important for me to capture the authenticity of the people I photograph. No matter how many pictures I have to take, being patient and on the lookout for that key moment is worth it. Taking candid pictures of people is probably one of my favorite types of photography and I always love the results.
-    </p>
+        <h1>Life Collection</h1>
+        <p>
+            I love waiting to capture just the right moment. It is important for me to capture the authenticity of the
+            people I photograph. No matter how many pictures I have to take, being patient and on the lookout for that
+            key
+            moment is worth it. Taking candid pictures of people is probably one of my favorite types of photography and
+            I
+            always love the results.
+        </p>
         <img src="img_photos/photos_50.jpg" alt="man looking at phone while sitting on bench">
         <img src="img_photos/photos_51.jpg" alt="two people in green hammock">
         <img src="img_photos/photos_52.jpg" alt="girl laying on grass reading">
@@ -86,10 +151,17 @@
         <img src="img_photos/photos_78.jpg" alt="man throwing frisbee">
         <img src="img_photos/photos_79.jpg" alt="man jumping up to catch frisbee">
 
-    <h1>Still-Life Collection</h1>
-    <p>
-        Looking at objects from a different perspective or lighting can drastically change the mood and feeling of the image. I enjoy doing close-ups and playing around with my light sources to showcase the dramatic beauty of the items I am photographing. With still-life photographs it is a lot easier to move things around and take your time carefully aligning things as they are a lt easier to work with than humans. Its interesting seing how you can arrange things to tell a different story every time.
-    </p>
+        <h1>Still-Life Collection</h1>
+        <p>
+            Looking at objects from a different perspective or lighting can drastically change the mood and feeling of
+            the
+            image. I enjoy doing close-ups and playing around with my light sources to showcase the dramatic beauty of
+            the
+            items I am photographing. With still-life photographs it is a lot easier to move things around and take your
+            time carefully aligning things as they are a lt easier to work with than humans. Its interesting seing how
+            you
+            can arrange things to tell a different story every time.
+        </p>
         <img src="img_photos/photos_02.jpg" alt="pills spilling on table">
         <img src="img_photos/photos_41.jpg" alt="pills from top view">
         <img src="img_photos/photos_42.jpg" alt="pills spelling SOS">
@@ -101,10 +173,15 @@
         <img src="img_photos/photos_58.jpg" alt="close picture of vanity">
         <img src="img_photos/photos_69.jpg" alt="flowers taped on wall upsidedown">
 
-    <h1>Motion Collection</h1>
-    <p>
-        Every day I try to experiment with my photography. I find long shutter speeds to be really fun to play with. I believe that the blurriness and motion provide a different mood to portraits and it can be a great tool for storytelling. Often it’s very hard to duplicate the same motion more than once, which makes these photographs even more special and unique.
-    </p>
+        <h1>Motion Collection</h1>
+        <p>
+            Every day I try to experiment with my photography. I find long shutter speeds to be really fun to play with.
+            I
+            believe that the blurriness and motion provide a different mood to portraits and it can be a great tool for
+            storytelling. Often it’s very hard to duplicate the same motion more than once, which makes these
+            photographs
+            even more special and unique.
+        </p>
         <img src="img_photos/photos_26.jpg" alt="blury image of woman with sun glasses">
         <img src="img_photos/photos_23.jpg" alt="blury image of woman with sun glasses">
         <img src="img_photos/photos_24.jpg" alt="woman in front of closet with blur">
@@ -121,25 +198,60 @@
         <img src="img_photos/photos_82.jpg" alt="black car on the road from the side">
         <img src="img_photos/photos_85.jpg" alt="white van on the road from the side">
         <img src="img_photos/photos_84.jpg" alt="black van driving down road">
-  
+    </div>
     <footer>
         <h2>Ruelas</h2>
-        <a href="home.html">Maria Ruelas</a><br>
-             <a href="graphics.html">Graphic Design</a><br>
-             <a href="photos.html">Photography</a><br>
-             <a href="contact.html">Contact</a><br>
-             <a href="https://www.instagram.com/m_moments2004/"><img src="insta_logo.png" alt="instagram logo"></a>
-             <a href="tel:6039319825"><img src="phone_logo.png" alt="phone logo"></a>
-             <a href="mailto:maruelas0423@gmail.com"><img src="email_logo.png" alt="email logo"></a>
-             <a href="https://www.linkedin.com/in/maria-ruelas/"><img src="linkedin_logo.png" alt="LinkedIn logo"></a>
-             <br>
+        <div class="footer">
+            <div class="sitelinks">
+                <a href="home.html">Maria Ruelas</a><br>
+                <a href="graphics.html">Graphic Design</a><br>
+                <a href="photos.html">Photography</a><br>
+                <a href="contact.html">Contact</a><br>
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/m_moments2004/"><img src="insta_logo.png" class="instagram"
+                        alt="instagram logo"></a>
+                <a href="tel:6039319825"><img src="phone_logo.png" class="phone" alt="phone logo"></a>
+                <a href="mailto:maruelas0423@gmail.com"><img src="email_logo.png" class="email" alt="email logo"></a>
+                <a href="https://www.linkedin.com/in/maria-ruelas/"><img src="linkedin_logo.png" class="linkedin"
+                        alt="LinkedIn logo"></a>
+            </div>
+        </div>
+        <br>
         <p class="copyright">
-            All content is copyright to the artist. No commercial use without express written permission.
+            * All content is copyright to the artist. No commercial use without express written permission.
         </p>
         <p class="copyright">
             &copy;2024 MARIA RUELAS.
         </p>
     </footer>
-
 </body>
+
 </html>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
