@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip {
+            background-color: #ffffff;
+            padding: 8px;
+            border: 2px solid #000000;
+            text-decoration: none;
+            color: #0000ff;
+            position: absolute;
+            top: 10px;
+            left: -999px;
+        }
+
+        .skip:focus {
+            left: 100px; /* when button is tabbed to */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <!-- don't forget bookmark link in skip content -->
+        <a href="#skip" class="skip">Skip to Content</a>
+        <!-- tabindex is to change tab order -->
+        <a href="http://www.amazon.com" tabindex="4">Amazon</a><br>
+        <a href="http://www.google.com" tabindex="3">Google</a><br>
+        <a href="http://www.ebay.com" tabindex="2">Ebay</a>
+    </nav>
+    <h1>All the A11y Techniques</h1>
+    <p id="skip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur laboriosam facere inventore
+        consequatur, odio molestiae harum nesciunt voluptates voluptatibus animi dolor perspiciatis consectetur.
+        Deserunt maxime dignissimos aperiam similique nulla.</p>
+</body>
+
+</html>

@@ -6,7 +6,22 @@ body {
     letter-spacing: 1px;
 }
 
-.container{
+.skip {
+    background-color: #ffffff;
+    padding: 8px;
+    border: 3px solid #253551;
+    text-decoration: none;
+    color: #253551;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+}
+
+.skip:focus{
+    left: 10px;
+}
+
+.container {
     margin: 20px;
 }
 
@@ -19,6 +34,15 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
+
+nav a:hover {
+    color: #253551;
+}
+
+footer a:hover {
+    color: #253551;
+}
+
 
 .nav {
     display: flex;
@@ -73,7 +97,6 @@ footer {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .sitelinks {
