@@ -1,10 +1,10 @@
-body {background-color:#7F27FF;
+body {background-color:#421389;
 color:#FFFFFF;}
-a {color:#9F70FD;}
-h1,h2 {color:#FF8911;}
-nav {background-color:#FF8911;}
-nav a {color:#7F27FF;}
-nav a:hover {background-color:#FDBF60;}
+a {color:#4d22a3;}
+h1,h2 {color:#e3b8ff;}
+nav {background-color:#e3b8ff;}
+nav a {color:#561baf;}
+nav a:hover {background-color:#ffffff;}
 nav {padding:10px;}
 nav {margin-bottom:30px;}
 @media only screen and (min-width:390px){
