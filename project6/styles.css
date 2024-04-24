@@ -1,0 +1,129 @@
+body {
+    background-color: #253551;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.skip {
+    background-color: #ffffff;
+    padding: 8px;
+    border: 3px solid #253551;
+    text-decoration: none;
+    color: #253551;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+}
+
+.skip:focus{
+    left: 10px;
+}
+
+.container {
+    margin: 20px;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #253551;
+}
+
+footer a:hover {
+    color: #253551;
+}
+
+
+.nav {
+    display: flex;
+    padding: 30px;
+    background-color: #5f76b0;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-size: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 0 auto;
+}
+
+div a {
+    padding: 8px;
+}
+
+h1 {
+    color: #5f76b0;
+    font-size: 5em;
+}
+
+footer {
+    background-color: #5f76b0;
+    padding: 20px;
+}
+
+h2 {
+    color: #253551;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.instagram,
+.phone,
+.email,
+.linkedin {
+    width: 1.3rem;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.copyright {
+    font-size: 0.5em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitelinks {
+    flex: 4;
+}
+
+.sitelinks a {
+    line-height: 25px;
+}
+
+.socials {
+    flex: 2;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width:800px) {
+
+    .nav,
+    .navleft a,
+    .navright a {
+        display: block;
+        padding: 12px;
+        line-height: 10px;
+    }
+
+    .nav {
+        margin-bottom: 40px;
+    }
+}
