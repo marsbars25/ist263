@@ -1,7 +1,6 @@
 body {
     background-color: #253551;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     letter-spacing: 1px;
 }
@@ -9,8 +8,19 @@ body {
 h1 {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #4c5f90;
+    text-align: center;
+}
+
+.main {
+    font-family: "Nunito", sans-serif;
+    font-size: 8em;
     font-weight: 700;
     font-style: normal;
+    color: #7c90c3;
+    text-align: center;
 }
 
 p {
@@ -20,12 +30,20 @@ p {
     font-style: normal;
 }
 
-.nav {
+.nav,
+.footer,
+.formy,
+.submit {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
+    
     font-style: normal;
     font-size: 1.15em;
+}
+
+.submit {
+    font-size: .75em;
 }
 
 .skip {
@@ -94,11 +112,13 @@ footer {
 
 h2 {
     color: #253551;
+    font-size: 1em;
 }
 
 footer a {
     color: #ffffff;
     text-decoration: none;
+    font-size: .75em;
 }
 
 .instagram,
@@ -131,7 +151,6 @@ footer {
 
 .socials {
     flex: 2;
-    padding: 10px;
 }
 
 
@@ -147,5 +166,28 @@ footer {
 
     .nav {
         margin-bottom: 40px;
+    }
+
+    .main {
+        font-size: 6em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .grid,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5,
+    .grid6,
+    .grid7 {
+        margin-right: 15px;
+    }
+
+    .socials img {
+        margin-right: 15px;
+        margin-bottom: 5px;
     }
 }

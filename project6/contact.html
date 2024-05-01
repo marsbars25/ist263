@@ -10,13 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <style>
-        form {
+        .formy {
             background-color: #FFFFFF;
-            width: 40%;
+            width: 70%;
             padding: 40px;
             color:#253551;
             border-radius: 20px;
             line-height:25px;
+            align-items: center;
+            margin:0 auto;
+            margin-bottom: 100px;
         }
         input, textarea {
             margin-bottom:15px;
@@ -27,11 +30,11 @@
             border: none;
             padding: 15px;
             color:#FFFFFF;
+            border-radius: 20px;
         }
         @media only screen and (max-width: 800px) {
             form {
                 width:80%;
-                margin:0 auto;
             }
         }
     </style>
@@ -49,7 +52,7 @@
         </div>
     </nav>
     <div class="container">
-    <h1>Contact Me</h1>
+    <h1 class="main">Contact Me</h1>
         <form action="" method="post" class="formy" id="skip">
             <label for="firstname">First Name</label><br>
             <input type="text" id="firstname" name="firstname"><br>
@@ -73,6 +76,7 @@
                 <a href="photos.html">Photography</a><br>
                 <a href="contact.html">Contact</a><br>
             </div>
+            <br>
             <div class="socials">
                 <h2>Contact Me</h2>
                 <a href="https://www.instagram.com/m_moments2004/"><img src="insta_logo.png" class="instagram"
@@ -84,7 +88,6 @@
                         alt="LinkedIn logo"></a>
             </div>
         </div>
-        <br>
         <p class="copyright">
             * All content is copyright to the artist. No commercial use without express written permission.
             <br>

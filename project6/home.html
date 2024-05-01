@@ -9,7 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="img_graphics/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 
     <style>
         .mepic {
@@ -19,6 +21,10 @@
 
         .profile {
             flex: 1;
+            align-items: center;
+            margin-right: -40px;
+            margin-left: 20px;
+            margin-top: -60px;
         }
 
         .info {
@@ -28,7 +34,15 @@
         .about {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: flex-end;
+            margin-top: -20px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .profile {
+                margin-left: 55px;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
@@ -46,16 +60,16 @@
         </div>
     </nav>
     <div class="container">
+        <h1 class="main">About</h1>
         <section>
+            <h1>Maria Ruelas Arceo</h1>
             <div class="about">
-                <div class="profile">
-                    <img src="img_photos/professional_pic.jpg" class="mepic" alt="image of maria ruelas">
-                </div>
                 <div class="info">
-                    <h1>About<br>Maria<br>Ruelas</h1>
                     <p id="skip">
-                        Maria Fernanda Ruelas Arceo was born in Mexico City, Mexico, on February 2nd, 2004. She moved to New Hampshire at the
-                        age of 11 with her family. She graduated from Concord High School in 2023 and began her professional journey by
+                        Maria Fernanda Ruelas Arceo was born in Mexico City, Mexico, on February 2nd, 2004. She moved to
+                        New Hampshire at the
+                        age of 11 with her family. She graduated from Concord High School in 2023 and began her
+                        professional journey by
                         enrolling at Syracuse University. Currently, she is pursuing a dual degree in Visual
                         Communications
                         and Information Management & Technology.
@@ -84,6 +98,9 @@
                         for a company based in New York City or Boston.
                     </p>
                 </div>
+                <div class="profile">
+                    <img src="img_photos/professional_pic.png" class="mepic" alt="image of maria ruelas">
+                </div>
             </div>
         </section>
     </div>
@@ -97,7 +114,7 @@
                 <a href="contact.html">Contact</a><br>
             </div>
             <div class="socials">
-                <h2>Follow Me</h2>
+                <h2>Contact Me</h2>
                 <a href="https://www.instagram.com/m_moments2004/"><img src="insta_logo.png" class="instagram"
                         alt="instagram logo"></a>
                 <a href="tel:6039319825"><img src="phone_logo.png" class="phone" alt="phone logo"></a>
