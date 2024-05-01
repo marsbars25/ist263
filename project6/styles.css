@@ -5,7 +5,7 @@ body {
     letter-spacing: 1px;
 }
 
-h1 {
+h2 {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -37,7 +37,7 @@ p {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    
+
     font-style: normal;
     font-size: 1.15em;
 }
@@ -100,7 +100,7 @@ div a {
     padding: 8px;
 }
 
-h1 {
+h2 {
     color: #5f76b0;
     font-size: 5em;
 }
@@ -110,7 +110,7 @@ footer {
     padding: 20px;
 }
 
-h2 {
+h3 {
     color: #253551;
     font-size: 1em;
 }
@@ -172,7 +172,7 @@ footer {
         font-size: 6em;
     }
 
-    h1 {
+    h2 {
         font-size: 4em;
     }
 
