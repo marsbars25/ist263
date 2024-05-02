@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    color: #253551;
+    color: #9cb1e4;
     font-size: 1.25em;
     font-weight: 700;
 }
@@ -49,7 +49,7 @@ p {
 }
 
 .submit {
-    font-size: .75em;
+    font-size: .85em;
 }
 
 .skip {
@@ -146,6 +146,31 @@ footer {
     flex: 2;
 }
 
+.formy {
+    background-color: #FFFFFF;
+    width: 70%;
+    padding: 40px;
+    color: #253551;
+    border-radius: 20px;
+    line-height: 25px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.submit {
+    background-color: #51679d;
+    border: none;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
 
 @media only screen and (max-width:800px) {
 
@@ -182,5 +207,9 @@ footer {
     .socials img {
         margin-right: 15px;
         margin-bottom: 5px;
+    }
+
+    form {
+        width: 80%;
     }
 }
