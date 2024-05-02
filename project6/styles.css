@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    color: #ffffff;
+    color: #253551;
     font-size: 1.25em;
     font-weight: 700;
 }
@@ -82,8 +82,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #253551;
-    font-weight: 800;
+    color: #d3dfff;
 }
 
 
