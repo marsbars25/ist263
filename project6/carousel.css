@@ -24,7 +24,7 @@ img {
     width: auto;
     margin-top: -10px;
     padding: 5px;
-    color: #5f76b0;
+    color: #253551;
     font-weight: bold;
     font-size: 22px;
     transition: 0.6s ease;
@@ -37,17 +37,17 @@ img {
     border-radius: 3px 0 0 3px;
 }
 .next:hover {
-    background-color: #253551;
+    background-color: #7c90c3;
 }
 .prev:hover {
-    background-color: #253551;
+    background-color: #7c90c3;
 }
 .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #5f76b0;
+    background-color: #7c90c3;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
