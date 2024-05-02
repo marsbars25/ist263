@@ -180,8 +180,8 @@ textarea {
 .profile {
     flex: 1;
     align-items: center;
-    margin-right: -90px;
-    margin-left: 20px;
+    margin-right: -10px;
+    margin-left: 40px;
     margin-top: -60px;
 }
 
@@ -264,5 +264,9 @@ textarea {
     .profile {
         margin-left: 55px;
         margin-top: 10px;
+    }
+
+    .mepic {
+        margin-left: 20px;
     }
 }
