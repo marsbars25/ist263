@@ -30,18 +30,14 @@ img {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: #d3dfff;
 }
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.next:hover {
-    background-color: #7c90c3;
-}
-.prev:hover {
-    background-color: #7c90c3;
-}
+
 .dot {
     cursor: pointer;
     height: 15px;
