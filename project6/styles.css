@@ -38,7 +38,6 @@ p {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-
     font-style: normal;
     font-size: 1.15em;
 }
@@ -78,6 +77,7 @@ nav a {
 
 nav a:hover {
     color: #253551;
+    font-weight: 800;
 }
 
 footer a:hover {
