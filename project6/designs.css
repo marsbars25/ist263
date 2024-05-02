@@ -18,7 +18,7 @@ width:300px;
 
 .evolve,
 .indesign2 {
-    padding-right: 20px;
+    padding-right: 63px;
 }
 
 .photoshop1 img,
@@ -75,6 +75,10 @@ img {
     align-items: center;
 }
 
+.indesign2 {
+    margin-top:16px;
+}
+
 @media only screen and (max-width: 800px) {
     img {
         margin-top:20px;
@@ -83,10 +87,8 @@ img {
     .photoshop1, .photoshop2, .illustrator1, .illustrator2, .indesign {
         justify-content: center;
     }
-    .indesign2 img {
-        margin-top: 20px;
-        margin-bottom: 5px;
-        margin-left:20px;
+    .indesign2, .evolve {
+        padding-right: 0px;
     }
     .slideshow {
         width: 90%;
