@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    color: #253551;
+    color: #ffffff;
     font-size: 1.25em;
     font-weight: 700;
 }
@@ -90,7 +90,7 @@ nav a:hover {
 .nav {
     display: flex;
     padding: 30px;
-    background-color: #5f76b0;
+    background-color: #51679d;
     justify-content: space-between;
     margin-bottom: 40px;
     background-size: 100%;
@@ -104,7 +104,7 @@ div a {
 }
 
 footer {
-    background-color: #5f76b0;
+    background-color: #51679d;
     padding: 20px;
 }
 
