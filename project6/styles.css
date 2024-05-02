@@ -172,6 +172,54 @@ textarea {
     border-radius: 20px;
 }
 
+.mepic {
+    float: left;
+    border-radius: 20px;
+}
+
+.profile {
+    flex: 1;
+    align-items: center;
+    margin-right: -40px;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+.info {
+    flex: 2;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
+.grid,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1em;
+    margin-bottom: 50px;
+}
+
+.grid img,
+.grid2 img,
+.grid3 img,
+.grid4 img,
+.grid5 img,
+.grid6 img,
+.grid7 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width:800px) {
 
     .nav,
@@ -211,5 +259,10 @@ textarea {
 
     form {
         width: 80%;
+    }
+
+    .profile {
+        margin-left: 55px;
+        margin-top: 10px;
     }
 }
