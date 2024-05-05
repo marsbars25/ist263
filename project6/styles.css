@@ -114,6 +114,10 @@ footer a {
     font-size: .85em;
 }
 
+footer a:hover {
+    color: #d3dfff;
+}
+
 .instagram,
 .phone,
 .email,
@@ -269,6 +273,6 @@ textarea {
     }
 
     .mepic {
-        margin-left: 20px;
+        justify-content: center;
     }
 }
